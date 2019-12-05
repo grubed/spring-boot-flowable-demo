@@ -21,6 +21,10 @@ http://127.0.0.1:8080/flowable/getTasks/1
 http://127.0.0.1:8080/flowable/processDiagram?processId=556081a9-1772-11ea-8d24-d2c6372034ce
 ```
 
+## IDEA教程之Activiti插件
+```html
+https://blog.csdn.net/gozhuyinglong/article/details/80336765
+```
 
 ## 参考
 
