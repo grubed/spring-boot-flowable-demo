@@ -43,8 +43,7 @@ public class FlowableController {
         HashMap<String, Object> map = new HashMap<>();
         map.put("userId", userId);
         map.put("purchaseOrderId", purchaseOrderId);
-        ProcessInstance processInstance =
-                runtimeService.startProcessInstanceByKey("OrderApproval", map);
+        ProcessInstance processInstance = runtimeService.startProcessInstanceByKey("OrderApproval", map);
         String processId = processInstance.getId();
         String name = processInstance.getName();
         System.out.println(processId + ":" + name);

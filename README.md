@@ -1,6 +1,27 @@
 # spring-boot-flowable-demo
 spring-boot-flowable-demo
 
+## 测试
+
+**提交采购订单的审批请求**
+
+```
+http://127.0.0.1:8080/flowable/start/1/1
+```
+
+**获取用户的任务**
+```html
+http://127.0.0.1:8080/flowable/getTasks/{userId}
+
+http://127.0.0.1:8080/flowable/getTasks/1
+```
+
+**获取流程图**
+```html
+http://127.0.0.1:8080/flowable/processDiagram?processId=556081a9-1772-11ea-8d24-d2c6372034ce
+```
+
+
 ## 参考
 
 - https://blog.csdn.net/puhaiyang/article/details/79845248
